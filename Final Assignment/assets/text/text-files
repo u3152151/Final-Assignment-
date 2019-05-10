@@ -1,0 +1,818 @@
+/* Basic Page Styles
+-------------------------------*/
+/*
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    border: 1px solid red;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+*/
+
+
+.hwrapper {
+    display: grid;
+    grid-template-columns: repeat;
+    background-color: #003249;   
+}
+
+.rowhead {
+    grid-column: 1/2
+}
+
+body {
+    background-color: #e7feff;
+    font-family: sans-serif;
+    margin: 0;
+    word-spacing: 2px;
+}
+
+/* Header
+-------------------------------*/
+header h1 {
+    color: #9ad1d4;
+    text-decoration: none;
+    font-size: 36px;
+    height: 115px;
+}
+
+header h1 :hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+/* Navigation
+-------------------------------*/
+
+.topnav {
+    height: 115px;
+    display: inline-block;
+    float: right;
+    text-align: left;
+    background-color: #003249;
+}
+
+.topnav ul li {
+    float: right;
+    width: 200px;
+    display: block;
+    height: 30px;
+}
+
+.topnav ul li :hover {
+    background-color: #9ad1d4;
+    display: block;
+    cursor: pointer;
+}
+
+.topnav ul li ul li {
+    vertical-align: middle;
+    font-size: 18px;
+    color: #007ea7;
+    visibility: hidden;
+}
+
+.topnav ul li :hover ul li {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    visibility: visible;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav {
+    color: #007ea7;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    word-spacing: 1.5px;
+    padding-top: 75px;
+
+}
+
+footer nav ul li :hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+.rowhead::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/* Footer
+------------------------------
+
+
+
+/* Pagae content - Headings
+-------------------------------*/
+h1 {
+    font-family: monospace;
+    display: inline-block;
+    text-shadow: 1.5px 1.5px #007ea7;
+}
+
+h2 {
+    font-size: 28px;
+    color: #007ea7;
+
+}
+
+/* Page Content - Pictures and Paragraphs
+----------------------------------*/
+.coverpic {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+0
+The Tocumwal Archive
+
+The Tocumwal Archive is a collection of stories and photographs, about living in the houses that were moved from the Tocumwal air force base in New South Wales, to the Canberra suburb of O'Connor. The base was built during the Second World War as an inland defence against Japanese invasion. As camouflage, the sleeping quarters for air force personnel were built in the form of houses. After the War, the acute housing shortage in Canberra gave the houses a new purpose. From the late 1940s, about 200 of them were transported to the growing suburbs of Ainslie and O'Connor. In O'Connor they were located in two groups of four cul-de-sacs meeting at a central park and bounded by Macarthur, Macpherson, Miller and Tate Streets. The area is listed as an Australian Capital Territory (ACT) heritage precinct. Collection for the Archive began in 1996 with a PhotoAccess project supported by the ACT Heritage Council. Stories and photographs are archived according to the donor's name. Ongoing community collection and maintenance of the Archive is encouraged. The Archive is open for research use and the contribution of material at the ACT Heritage Library in the Woden Town Library. 
+
+001
+Heritage Listing
+
+Statement of Signifigance
+The Tocumwal Housing Precinct in O'Connor is significant as an outstanding example of low cost pre-fabricated housing, which was constructed in Canberra after World War 2.
+As part of the Government's solution to the critical housing shortage being experienced in Canberra at the time, many of the houses originally constructed at Tocumwal in NSW for the US Army Air Corps were re-erected in the ACT. The cottages are of distinctive design types and limited geographically to the O'Connor Precinct and a small area in Ainslie.
+The Precinct remains the most intact example of this style of housing and is unique in Canberra for its urban planning, landscaping and social history.
+The eight culs de sac evident in the precinct share access onto a community recreation area with the individual identity of each street reinforced by the street plantings. Many of the cottages retain their original hedge plantings. The 'precinctual' planning is thus significant.
+The sense of cohesion of the streetscapes within the Precinct is achieved by the repetition of features in the housing stock, and the integration of this with unifying street plantings and hedges. It creates an area of high aesthetic value.
+
+Features Intrinsic To The Heritage Significance Of The Place
+The place comprises:
+a) the extant ‘Tocumwal’ houses on blocks identified in Figure 43 (affected properties listed in
+Schedule 1);
+b) the existing subdivision pattern;
+c) the road layout including the culs de sac and their streetscapes; an d
+d) the public open spaces contained within the Precinct.
+ 
+ 1
+ 1.1
+The Origins of Canberra's Tocumwal houses
+
+After the bombing of Darwin, the United States and Australia made joint plans for Australian inland defence. The Tocumwal airfield was the largest and first of several large airfields planned for construction in relation to the the line of possible Japanese advance. It was built by the Australian Government (Australian Civil Construction Corps and Allied Works Council) on behalf of the United States Army Air Force between February and April 1942. Five thousand people were involved in the construction of the base which was designed to stage bombing raids and reconnaisance flights, as well as take the role of the first training centre in the South-West Pacific for Liberators. Not long after the 'houses' were erected at the end of the building process, the Battle of the Coral Sea halted the Japanese advance and the USAAF decided to move north to Townsville. The Royal Australian air force officially took over the running of Tocumwal in November 1942, establishing it as a hospital and training base.
+
+(Information from Thematic Study: WWII Aerodromes and associated structures in New South Wales, New South Wales Heritage Office, 2000, and military historians Dr Darryl McIntyre and Noel Flanagan)
+
+1.2
+The Tocumwal air force base
+
+My family was aware of Tocumwal and its houses long before they became a feature of the streets of O'Connor. My father, Hartley Hollier, was a serving member of the RAAF from 1936-46 and was actually stationed at Tocumwal when the 'Tocumwal houses' were in that town, newly-built and functioning as they had been designed to function.
+
+The Tocumwal air force base was part of the 'Brisbane Line' strategy of World War II. The Brisbane Line was, in fact, an imaginary line drawn on a map connecting Perth with Brisbane. This effectively divided Australia into two segments. The thinking was that we could afford to lose everything above the line, if needs be, to an invading Japanese force - but we would fight to the death to keep everything below it. For this reason various air force bases were strategically placed just inside the 'line', and Tocumwal was one of these locations.
+
+What we know as the 'Tocumwal houses' were built in Tocumwal for the purpose of setting up the air force base. The whole base was designed to look like any Australian country town, and was virtually all accommodated in the 'houses'. It had roads and streets laid out and I imagine that the aircraft hangars and workshops might have looked like the local school or public hall. The houses had no partitioning inside and most of them served as sleeping quarters for the men. They had a half-hourly bus service and the bus would pick up personnel and drop them where they needed to go. The vital purpose for designing a base in such a form was that, should enemy surveillance aircraft fly overhead, all that they would see would be an ordinary town.
+
+After the end of World War II the air force base at Tocumwal was no longer needed. I imagine there was at first a feeling of, 'What on earth are we going to do with all this lot?' But, concurrently, Canberra was developing fast by the mid-1940s and someone had the brilliant idea (or so it would seem, with hindsight) of bringing the houses and re-erecting them here. Sylvia Hollier (contributed 1996)
+
+1.3
+Constructing the Tocumwal air force base.
+
+Like many others Stanley Mawston (Bluey) Forster went to join up in 1942. Because of his building qualifications and ability to read plans - blueprints as they were referred to in those days - he was seconded to the Dept of the Interior. His was to be a different kind of war.
+
+Stan arrived in Tocumwal by train with troops and personnel like himself, late one Saturday afternoon. After a twenty two hour train ride to what felt like the ends of the earth all he and his travelling companions could think of was a long cold beer. After spending most of his life on the coast of NSW he found this flat, dry and seemingly barren country a vast contrast to the lush coast that he had been used to.
+
+The men were housed in tents on the 'drome and worked daylight to dark. They were mainly men of the 3Cs - Civil Construction Corps - and Stan was foreman on the cook house and picture theatre as well as the houses.
+
+Initially in Tocumwal for 10-12 weeks, the majority of the men were then sent on to Amberly air force base. After his release from the Dept of the Interior Stan returned to Tocumwal and worked as a builder in the town and district until he accepted the position of caretaker in 1957 at the aerodrome. A small contingent of officers and enlisted men were still stationed there until 1964 and on their departure, Stan moved into a residence on site. At this time all remaining fixtures and buildings on the 'drome were sold or removed.
+
+Stan had bought the house that he and his family moved into in 1964 and spent his spare time renovating it with the view of moving it into town to retire in. After the completion and refit he chose to sell and return to Wollongong and the family home they had left behind twenty seven years before.
+
+Judy Carlon, Tocumwal Historical Society (contributed 1996)
+
+2
+2.1 From Tocumwal to Canberra
+
+After the Second World War, the development of Canberra as the national capital was revitalised. The final move of central Commonwealth administration from Melbourne to Canberra involved thousands of people and a huge building program that included the creation of new suburbs as well as offices, schools and all the general city infrastructure. In its quest to meet the growing housing needs of Canberra at a time of extreme shortage of building materials the National Capital Planning and Development Committee was interested in available prefabricated houses. The transportation of a number of the Tocumwal houses and their installation in Ainslie and O'Connor was arranged. In Ainslie they were located in various streets amongst other types of housing, but in O'Connor they were established in a specific location that is now the O'Connor Tocumwal heritage precinct. Jim Perry was the builder who won the contract to install the houses in O'Connor.
+
+2.2
+On the road
+
+I lived near the Murray Valley Highway. I remember seeing houses in sections going along the highway on big trucks. The Murray Valley Highway was really narrow and they seemed to take up all of the road. I knew they came from Tocumwal but I didn't know where they were going. We saw them frequently. It wasn't until many years later that I found out where their journeys ended.
+
+Sylvia Glenndenning (contributed 1996)
+
+
+1947-50 observed the Tocumwal houses being moved while on a vegetation survey of the Murray Valley (Grass Tree Association) with CWE (Ted) Moore - a CSIRO research program.
+
+Eddie Dowling, Quinn Street, 1950-52 (contributed 1996)
+
+2.3
+Unloading in O'Connor
+
+Alby and Dot Day moved into Hart Street in 1949. At this time the Tocumwal houses were still being put up in the O'Connor area and Alby, who worked for the Transport Section, would help with the unloading as the dismantled houses arrived. Dot remembers that they always arrived in the evening.
+
+Information from Dot Day, Hart Street, 1949-1970 (contributed 1996)
+
+2.4
+'Who ever thought we'd get a Tocumwal house!'
+
+John Barty was employed as a carpenter on the construction of houses at the Tocumwal air force base. Like Stanley Forster he was in the Civil Construction Corps during the war. He travelled as far afield as the Northern Territory doing this work. After the war, he was attracted by the building work opportunities in Canberra and he and his family moved to Canberra from Finley in 1947. One of the first jobs he was employed on was re-erecting the Tocumwal houses in Ainslie. In 1953 the Barty's were allocated a Tocumwal house in Todd Street, O'Connor.
+
+Information from the late Alma Barty and Norman Barty, Todd Street, 1953-1973 (contributed 1996)
+
+2.5
+Owen Taverner - bricklayer - contract for 100 Tocumwal cottages in O'Connor
+
+Owen Taverner and his partners Billy Moore and Billy Goggin had the contract with Jim Perry to build the footings and chimneys for '100 Tocumwal cottages in O'Connor'. They were the 'very first things to be built past the pines' (Haig Park). There was no road beyond Haig Park - they'd get through on tracks. 'From Haig Park to the end of Turner was dirt.'
+
+One of the things that amazed Owen about the houses was that they were erected without concrete foundations. 'I'll bet you any money you like, there's nowhere else like that in Canberra'. They laid the bricks straight on to the ground - two courses sideways in trenches that were dug for them by the contractor, and the footings on top. 'We often wondered about that, but the houses are all still there.'
+
+Jim Perry was the builder. He had the contract to erect the Tocumwal houses. But Owen remembers that 'to all intents and purposes Tommy O'Connor was the main man' - he was from Queanbeyan - O'Connor constructions.
+
+Owen and his partners worked on the contract for about six months and he remembers that the forty hour week came in towards the end of the contract - 1948.
+
+Information from Owen Taverner (contributed 1996)
+
+3
+3.1
+Early years of the houses in O'Connor
+
+The new and growing population of Canberra included construction workers and workers in a wide range of service industries as well as transferred public servants. People from all these groups were on the Government housing list and when houses like the Tocumwals became available, getting somewhere to live was generally more important than location or style of house. The old Canberra hierarchies of status and position were not evident in the early years of the Tocumwal houses.
+
+3.2
+The first to be handed over
+
+We moved into Hart Street in November 1948. I was in hospital with my first born, then my husband was offered the house. He was questioned why he needed a four-bedroomed house with just one child and his reply was 'future developments' - which proved to be right as we subsequently had eight children. Our house was the first to be handed over and we were really pioneering. There was a small creek bed running through the back of the block, so much rock had to be dug out before a garden could be contemplated. We moved from there to Palmerston in April 1992 as the house and garden were becoming too much for us to manage as the children had all married and left home.
+
+It wasn't until some time in the 50s before the road was sealed and kerbs and guttering completed. I well remember the dust and heat on that occasion, not to mention the noise.
+
+The 'paddock' at the top of the street was a great place for the children of the street - which were quite a lot - to get together, kick a football, ride their bikes and my sons tell me 'meeting girls'. We had quite a few bonfires there on Cracker Night and the general community feeling was one of friendliness.
+
+We made some improvements to our house, removing the large fireplace structure and the fuel stove in the kitchen in the 60s. Also having the outside of the house clad with artificial tile around the same time, although we see that the present owner removed this and it is once again the original fibro and weatherboard structure.
+
+Peg Hayes, Hart Street, 1948-1992 (contributed 1996)
+
+3.3
+Block 5 Section 36
+
+Transported by father-in-law in his Jaguar our family arrived at Block 5 section 36, O'Connor. No street, footpath or hedge. We drove directly to the front steps to unload our gear. Furniture was already in place. I had been living for a short time at Adaminaby with my parents, with two children and pregnant - until our house became available.
+
+The area which later became Peel Street was occupied by builders' huts and pools of water while the houses on the eastern side were completed. North of Macarthur Avenue was a farm occupied by Mrs. Shumack. Sheep roamed about where the O'Connor tennis courts now stand.
+
+It seemed to rain for weeks and the area was a mass of yellow mud. As more houses were completed and familes arrived - most with small children - we became a close knit community.
+
+Few had cars - we walked to Civic to shop. Groceries were delivered by the Civic shops. A greengrocer called in the street weekly - ‘fresh food people' - in a truck.
+
+
+In the first year
+
+several new babies in the street
+wedding reception at our house for my sister 
+we grew potatoes 
+furniture and carpets from Cusacks 
+ice chest - refrigerator much later 
+fuel copper and wringer in laundry - washing machine much later. 
+Picnics where Lyneham now is. Tennis at Turner 
+Cosiers' grocery shop a great boon - the first shop at the centre
+Lots of visits from family and friends from interstate - interested in the Tocumwal development.
+We were all young and life was fun.
+There were tragedies too. The death of a baby and later a small child.
+
+
+Doreen Burn, 5 Peel Street, 1950-1980 (contributed 1996)
+
+3.4
+Just the house on a bare suburban block
+
+We moved into Quinn Street, O'Connor early June 1950. The road was unpaved, there were no footpaths, just the house sitting on a bare suburban block of land.
+
+The little car, our first, was purchased, second hand, in April 1949. My husband came from a family of market gardeners, and he soon had a very good vegetable garden growing and producing in the back yard and a fowl run and, after a crop of potatoes, all over the front, a good lawn was soon developed.
+
+By December 1950, the government had laid cement footpaths in Quinn Street and with a very close look in snap No. 2 you can see the tyre marks left by Bluey Heath as he rode his bicycle on the wet cement.
+
+After a period of very heavy and consistent rain we had water up to the edge of the verandah in the front and all over the back lawn. It was 6 inches up the walls of the garage and bags of fertiliser, fowl food and cement, etc., were ruined as the water surged through the garage. I also provided much mirth for my neighbours when I was hanging washing on the clothes line, over the great pool of water, clad in Wellington boots and trying hard to keep the clothes from dangling in the muddy mess.
+
+Claire Hill, Quinn Street, 1950-1957 (contributed 1996)
+
+3.5
+The japonica hedge and other improvements
+
+The first thing in any house I've ever been in is at least to stick in a geranium by the door. I don't know whether I did that there but we certainly made a garden of sorts, straight away. And it wasn't all that easy because it was a very wet winter and there was no government handout of plants until the following autumn so that you had to do something on your own - and that was what started the japonica hedge. As you drove along to the airport you couldn't help seeing a whole series of lovely pencil cypress trees, planted at very large intervals, and round each cypress tree there was a ring of japonica and they probably were still in bloom when we moved into Todd Street in September. And of course japonica suckers, so in the gloaming one evening I went there with a spade and secateurs and I got as many suckers as I could and I planted them all along the dividing line between number two and number four Todd Street. We left Todd Street long before they ever bloomed - they take about three to four years before you see any blooms - but I think that they are a living memorial to our tenancy now.
+
+There were no drives, there were no paths. It was very often just a sea of mud, but by degrees the government put in two strips of concrete along the drive and a couple of garden paths near the back door and to the front porch. And every time they put in an improvement like that they added sixpence or so to the rent, so the rent rose by degrees over the three years we were there, from, I think 37/6 a week to in all two guineas a week but for that we got an electric stove, to supplement the old Bega fuel stove we had in the kitchen, and an electric bath heater and these concrete strips.
+
+You know, the legend was before we ever came to Canberra, that in Canberra you were put into a house in a street and everybody in that street had the same salary... Well, Todd Street certainly gave you the lie to that - absolutely. It was a really good mix.
+
+The late Dymphna Clark, Todd Street, 1950-1953 (oral history interview 1996)
+
+3.6
+We were glad to get the house
+
+We were glad to get the house and settled down and had our five children there. We all more or less moved in together - Cunninghams, Gillfeeders, Hitchens. Heingsts, Wills, Opeks, Czesawas, Furlongers.
+
+The houses were cold. We had a big black fuel stove in the kitchen but at first it didn't even have an ash pan. Other people had cream and green stoves and we decided to paint ours but it was a disaster.
+
+Other appliances in the kitchen were a sink heater and an ice chest. In the laundry was a big black copper which I had to light up each day to boil the nappies. There was a 'puffing billy' in the bathroom and the whole house would rattle when it got going.
+
+None of us had phones - there was a phone up on the corner of Hart or Todd Street. We were good friends with Cliff and Lola Clayton in Finn Street and we'd often throw a stone on the iron roof to arrange a card party or a yarn over the back fence.
+
+You had to go to Civic or Kingston for a reel of cotton until Cosier's store was built - it was built the year we arrived. It was good to get the preschool, and when St Josephs was built my daughter could walk rather than catch the bus to St Pat's.
+
+We had lovely neighbours and everyone was really good. We planted a lawn and built a chook yard. We were happy there.
+
+Ina Callahan, Busby Street, 1950-1962 (contributed 1996)
+
+3.7
+'Good luck with the rocks, Bruce!'
+
+It rained a lot in that winter and the mud and dampness was a worry to everyone. Our driveway became an absolute bog and so Bruce contacted the Works Department about some kind of help with our drive. I might add that Canberra was only a small place in those days and mostly everyone knew or knew of, one another. Our request was granted. A large load of rocks was delivered to our driveway - as too was a sledgehammer with a little note from someone in the department with a great sense of humour - 'Good luck with the rocks Bruce'!! So much for knowing someone in the Works Department.
+
+Dorothy Holgate, Quinn Street, 1950-52 (contributed 1996)
+
+4
+
+4.1
+Parties and pastimes during the first twenty years
+
+The first children to grow up in the Tocumwal houses were part of the post-war baby boom. They were often members of large families - memories of the number of kids in any one of the cul-de-sacs of 12 or 14 houses, include countings of over 50. Many of them played together as children and young adolescents. The neighbourhood plan around the park and the easy access between houses facilitated these connections. The bush of Black Mountain and O'Connor Ridge on the other side of Miller Street offered territory for exploring and games, and collecting firewood for cracker night bonfires in the park. Adult parties included neighbourhood friends and others from further afield.
+
+
+
+4.2
+Cowboys and cracker nights
+
+I was born on 16 Jan 1949 in the (then) Canberra Community Hospital. My sister Diane Elizabeth Frame also was born there on 24 Nov 1951.
+
+Our parents were Harold William Frame and Jacqueline Maud Frame. In Canberra, initially they rented with Bernice and Bill Burns (a PMG Lineman) at 15(?) Bass Gardens, Griffith, then moved into 2 Lord St when the house became available. They were the first tenants. Dad was then working as a carpenter with the Commonwealth Department 
+of Works.
+
+I remember a very popular sandpit in the kindergarten yard and a 'flying fox' from 'upstairs' in a shed in the school yard to (I think) somewhere near the sandpit. Another favourite pastime was collecting the grass when it was cut in the yard and cramming it into a holding bin on the back of one for my friends trikes. What he did with it when he got home, I can't imagine.
+
+You weren't anyone unless you had a Davy Crocket 'raccoon skin' hat. A good cowboy outfit, or at least a pistol and holster cap gun, also was de rigeur. When I was about 7-8, cowboys and Indians were all the go. At one stage, about age 7 probably, I had a cowboy suit and hat. Mum has a photo of me and David Peak, both in cowboy outfits, sitting in the grass common area at the end of Lord St.
+
+Because Belconnen Way was not built, Miller St was the last street before Black Mountain. Groups of us would go up onto Black Mountain to build 'cowboy forts'. These generally were just little squares with low walls made of fallen timber etc. I don't think we went too far into the bush, but far enough for us to play out of sight of the houses. I remember someone turning over an old piece of galvanised iron one day and finding a nest of redback spiders: I don't think we stopped running until we crossed Miller St.
+
+As long as I can remember, we used to be able to turn on the fire hydrant at the end of Lord St. (A long-gone luxury - fire-fighters now bring their own spanners). We used to all build little dams in the gutter all the way down the street, make a bunch of stick and leaf little 'boats', then turn on the hydrant. The object was to see how long your dam could last and how fast your boat would go.
+
+'Cracker Night', Empire Day 24 May (my parents wedding anniversary), was an occassion that everyone joined in. Someone, I don't know who, used to arrange a bonfire in the common area between Lord and Way Streets and everyone went along and brought their crackers. It was also when you had penny and threepenny bungers available to buy and blow up post boxes, and tom thumb strings to scare the dogs and cats.
+
+In winter, if you wanted something to do that was great fun and annoyed your mother, you could always go out in the morning and jump on the puddles to break the ice. In the early 50s, the road and footpath must not have been paved properly as I can remember lots of good puddles frozen over - not deep ones, but they still had a bit of muddy water in the bottom.
+
+My main friend was Alan Harding, who lived at 64 Miller St next to the fire shed in the common area, on our side. His father was with the CSIRO. Alan went to school with me until I moved to Darwin.
+
+Ian Frame, 2 Lord Street, 1948-59 (contributed 1996)
+
+4.3
+The cross on the chimney
+
+For a long as I can remember there has been a cross on the chimney. The chimney featured in many of our games, we practiced tennis using the cross as a marker, and played various ball games (especially 7's). We often used the chimney as home base for hide and seek. There could be as many as 50 kids playing hide and seek at dusk.
+
+David remembers marking out the existing cross with glue. A fire proof glue was used to remark the cross on the chimney. Dad said it would never wear off - guess what he was right. Just recently (September 1996) when visiting Todd Street, I noted with interest that the cross still looked the same.
+
+Maureen Bourne (nee Battisson), 4 Todd Street, 1953-76 (contributed 1996)
+
+4.4
+Dressing up
+
+My mum made a nun's habit for me. I used to dress up and pretend to teach school, usually to a class of dolls. A friend of mine also had a nun's habit. We frequently dressed up and walked around O'Connor. One weekend Wanda and I visited St Joseph's convent dressed up as nuns. I remember ringing the door bell and having afternoon tea with the nuns.
+
+Maureen Bourne (nee Battisson), 4 Todd Street, 1953-76 (contributed 1996)
+
+4.5
+Suicide Hill
+
+Up from my place there was what we used to call Suicide Hill. It was the gully that runs parallel to Fairfax Street and which is now the stormwater drain. It wasn't unknown for slug-gun and shang-hai fights to be had up there. Shang-hais were whatever one manufactured at home with the fork of a stick. The more sophisticated actually got a bit of flat steel and bent it up into a handle and there was always bicycle inner-tube rubber and bits of copper wire to put the little leather tongue in to hold the rock.
+
+We used to take our billly-carts up on to Suicide Hill which is up the top of Wongoola Close. And we'd come down. There was about a 15 foot flat area and then it dropped. It seemed to me an enormous drop - it was probably only about 8 or 9 feet. There were a few injuries sustained there with people who couldn't turn their billy-carts around. We also made billy-carts. Billy Kinnane's father used to work at the old Black Mountain tip and we used to get hold of old steering wheels from cars at the tip. We found a method of making billy-carts with steering wheels and if you wound the steering rope around the wrong way, you had to turn the wheel in the opposite direction to the way you wanted to go. So that got a bit confusing on occasions. But that was a sort of preamble to our later years, our more juvenile years with old Holdens and VWs, where we pulled them apart and some of the backyards around our area looked like wrecking yards.
+
+Michael LeGrand, 4 Macarthur Avenue, 1954-1991 (oral history interview 1996)
+
+4.6
+Visiting
+
+The first encounter that I had, personally, with the Tocumwal houses, was in 1948, when they were very new. Dad became friendly with a man named Bob Peak, who was also working at 'CS' (as we always called it). Bob - as I later found out - had also recently returned from the War, having been, I think, a prisoner-of-war in Poland, and he and his family had recently moved into Tate Street. We had no car in those days and Dad would often hop on a bus on Saturday mornings and go to visit friends. This particular day he took me to O'Connor, 'to meet Mr. Peak', and I remember standing in the Peak's kitchen, with Mr Peak smiling at me and saying 'I'll go and get my little girl, Elizabeth. She's just outside, collecting the eggs!' Elizabeth came in just then and I got the impression of a very pretty, animated little girl, with thick, blonde hair, which she wore in two long plaits. At this time Elizabeth was eight and I was six.
+
+Over time we developed with the Peaks a special and very enjoyable 'family' friendship. They were a phenomenon at the time, in that they were one of the few families who owned a car. I remember that, one Sunday, Bob rounded up his family and mine and took us all for a drive out to the Cotter River for a picnic. On another occasion they invited us to tea, one night, at their house in Tate Street. We lived in Ainslie and Bob came to pick us up and drive us to his house. It must have been winter because it was pitch-dark and I can remember that we soon left the streets and houses far behind and seemed to be driving miles out into the bush. Mum remarked that we were 'driving out into the never-never'! That was about 1949.
+
+My family went back to live in Sydney for most of my primary school years but just before we came back to live in Canberra again, the Peaks offered us a three-week holiday at their place. The Peak's house in Tate Street had such a strong personality that I was acutely aware, even at eleven years of age, of the comfotable, relaxed, rambling, 'farmhousey' feeling that it had. Apparently it had brought 'something' with it from its original setting. It was such a happy house.
+
+Sylvia Hollier
+
+4.7
+Todd Street ceilidhs
+
+When Barty's children were 21 we had a party and when my children were 21 we had a party and just for the hell of it we had a party.
+
+One of my friends taught Irish dancing and she had us all doing Strip the Willow. Oh, you should have seen it! The Italians were doing it like the Tarantella and the Germans were marching through it. And the Irish and most of the Scottish could do it, so we all took one of the different people and dragged them through, 'Come on, put your foot out', 'Catch her', and that sort of thing. We used to do that in the backyard because behind the garage my husband concreted a great big square and we had a little shed there that the children could play in.
+
+My boys were electricians and they put out lights and ran out plugs, and I'd take out my electric frypan and deep fryer and we'd taken out the old stove out of the kitchen, when we renovated, so I'd cook a leg of lamb out there and we'd have chips - somebody would be cooking chips and I'd be making pancakes. And a door we took off somewhere was on a trestle, covered up with papers and that was where the pans were. I would provide a certain amount but everybody bought their own beer and their own sausage and if you were real rich you could bring your own chop.
+
+We sat on buckets and boxes, you name it. And we had a 40 gallon drum and we had holes in that and we set fire to that. We threw all the chips and that in that and that gave us heat at night. And then when we were clearing up, we threw all the rubbish into it and burned it.
+
+By about 9 o'clock or half past eight, the kids were nodding off, we chucked them into bed. We laid them out in rows sometimes with sleeping bags along the lounge and one of the bigger children would keep an eye on them, and that's how it went. But midnight was black-out, sort of thing. Because, first of all for the neighbours sake, and because our men all had to get up at 6 o'clock in the morning anyway, because they were all builders or carpenters or something and they had to get to work for 7 o'clock.
+
+Well as I say, most Irish and Scottish people always sang, you knew that and everybody had a special song. Joe Stewart sang, Hallelujah, I'm a Bum , and Jimmy Miller he used to sing, something about 'I eat when I'm hungry, I drink when I'm dry, if the moonshine don't kill me, I'll live till I die'. Mary Stewart, she had a sweet little voice, she always sang I'm forever Blowing Bubbles and Jack and Alice Wardle, they sang 'sons of the sea, bobbing up and down like this' - and they went round bobbing up and down like this. And the Italians would sing Come back to Sorrento . And I would sing, If I had the Wings of a Swallow or something like that, or The Hills of Donegal or something because I was supposed to have a good voice.
+
+It was a couple of beers and a sausage and lots of bread and salad and a bit of cake and fun and talk about what you did and how you did and what your kids did and, Oh God, you'd found them out doing something or other, you know, and just that sort of thing. And then at midnight we packed up, and the next day we hosed it all down and burned all the rubbish in the 40 gallon drum.
+
+Bridie Battisson, Todd Street, 1953-1976 (oral history interview 1996)
+
+4.7
+Square dancing
+
+When we went square dancing sometimes they'd come back here and it'd be nothing to have 40 or 50 people in the lounge room here. And that was before I knocked out the entrance hall. We used to come back here and you couldn't move in the entrance hall. They'd square dance on the carpet. We had music and they'd have a caller.
+
+George Lewis, Quinn Street, 1949-1997(oral history interview 1996)
+
+4.8
+Dances and a keg of beer
+
+We used to have a party occasionally. Alice was very good on the accordion. We'd have dances and a keg of beer and all that sort of thing.
+
+Vince Oldfield, Hart Street, 1950-1999 (oral history interview 1996)
+
+4.9
+Sunday at the Raccosta's
+
+In the early days, because there were so few of us, every Sunday afternoon, the Italian families would get together in our big room and have a dance. The Pangallos would come from Lord Street, the Orsinis would come from Hart Street and the Pelegrinos would come from Cockle Street.
+
+Jim Raccosta, Macarthur Avenue, 1958-1960s (Jim's mother, Christina lived at the house until her death in about 2000)
+
+5
+5.1
+Changing patterns of community from the 1970s-1990s
+
+
+A number of Tocumwal house residents took up the opportunities offered over the years to buy the house they were renting from the Government. Others moved on without buying. By the 1970s there was a mixture of private and Government ownership in the Tocumwal precinct. There was also a mixture of long term residents, some of whom now owned their houses, and newer ones. In 1973, when most of the public service transfer was complete, access to government housing in the ACT, as with other states and territories, became subject to a means test. This meant that families experiencing some income hardship and pensioners were the retainers or newer residents of the government-owned houses. Buyers were often people who worked nearby, perhaps at the Australian National University or the CSIRO. The Tocumwals also attracted people interested in alternative politics and lifestyles and were becoming popular as private rentals in the new era of group houses. The Co-op School , initially an alternative school, was established in the 1970s as was the Finn Street Family Centre. The Family Centre was established as a support centre for unemployed workers and their families. In the 1990s many residents were watching the move to dual occupancies and the higher prices of inner north real estate warily.
+
+5.2
+This house'll suit me fine
+
+We were given the keys to the place on the 8th August 1979. This was about two or three months after I'd put my name down on the list and I'd been told that I'd have to wait for eight months or a year and a half, so I thought there was something a little unusual about it. When I came and looked at the place I could see why because it was kind of old and shabby and it wasn't the kind of place that a lot of people would like but I thought it would be great because we like to decorate the walls. I've lived in new houses and with small children in new houses you've got be constantly on their backs about keeping this and that clean and not bumping this and that. I'd rather live in an older house and let them be a bit more creative and free. So I said, 'Yes, this house'll suit me fine'.
+
+My youngest child was one year old when we moved in. The others were from ten and a half up. There were seven of us all together. We came over the night I got the key - the husband of one of the teachers at Middle School, which was between the Co-ooperative School at O'Connor and the School Without Walls, brought us all over - and we looked around it with candles because the electricity wasn't on. I remember we put the candles in the place and then, because we were musicians, we sat down and played music.
+
+I remember sitting on the front porch and thinking very sadly about the garden where we'd been because it was beautiful, but I suddenly thought 'Hey, this is a great opportunity'. I was interested in permaculture and my family had been organic gardeners all along, so I just thought , 'Right, this isn't a sad thing to come here, this is an opportunity'. Whenever I had a few spare dollars I'd buy another tree and plant it and I moved around the things that were here. It took years before it really looked that good but I made those planting beds so that it wasn't all grass and planted stawberries as a ground cover and planted fruit trees and nut trees. We've got a big garden in the back as well.
+
+The personnel in this household changes all the time. People move away and move back again. We've got family all over the country really. That's been one thing that is really good, as a reasonably poor parent, to at least be able to say, 'Well, if you need a place to go you are welcome to come back here'. And there've been times when we've had children of friends staying here over a period of time. At the moment it's only Vandy, my oldest daughter and her four year old daughter and myself.
+
+Now they're selling off all the government housing in the area which is pretty worrying given the fact that the housing list is so long. It just seems they auction off every house. And it's becoming very trendy here and we're not particularly trendy people. We're people who get head over heels involved with the Peace Movement and the Environment Movement and the Social Justice Movement and staying poor for years but doing a lot of what we consider really worthwhile work in the community. An area like this becomes popular because there are interesting people here doing things to make it an interesting and varied place to live. But then if you sell all the houses and make sure that nobody can live here unless they've got lots of money, it just turns into another dull suburb where people are worried about anyone that looks different.
+
+Bobbie and Vandy, Finn Street, 1979 - (oral history interview1996)
+
+5.3
+A community in the balance
+
+First impressions - 1986 - summer
+
+It had been left for over two years, neglected and overgrown. We had to cut our way through the wild roses growing across the verandah. The verandah, a wide, cool oasis. The front garden, all tangled yellow grass and one huge 'original' elm.
+
+We had moved from a shared Tocumwal in Ainslie - now our 'own' - knobs, windows, taps - all the things we use, touch in a house, all seemed familiar, but slightly shifted (go into any Tocumwal and you know its character and its features).
+
+Inside - dark, smoke-blackened, sad - even the old rocker still seemed to be rocking. The back bedroom - so dark - must have run out of windows that day.
+
+'Original' kitchen - stove, cupboards, shelves. Old orange paint, fluoro light. Even the painted red linoleum in laundry/bathroom was original 1940s red-lead.
+
+And a water copper - our first disaster - when a visitor unknowingly threw her clothes in and flicked the switch - no water. A robust fire and call to the brigade - brought out all the neighbours that day - got to meet them all.
+
+The close neighbours were quick to check us out - a government house in the middle of 'owners' -and with a number of children and an old Kingswood.
+
+And now the house is beginning to 'soften'. Front verandah has just been revealed. A lot of work needed to save its structure. It's wrongly aspected - more than half of the house doesn't see sunlight - sky lights, big windows, solar passive extension. Important not to lose the rambling 'Queenslander' finish to the front and to some of the high quality crafted timber finish to the doors and cupboards.
+
+We still use the old Canberra stove - just lighting it, using the original tools, and as it glows and hums, the house is warmed. It keeps us connected to the past as we speed towards 2000.
+
+Bonding
+
+When we moved in there was more government housing with larger families. At one stage about 11 children who played together in ever-growing groups and who moved, in and out like the tide between houses. Friendships grew - and tensions too - out of this - the large family.
+
+At No. 8 - our babies born almost at the same time (hers' almost on our verandah). Strengthened the tie. Rosalina is our boys' godmother. We would rock, walk and on a couple of urgent occasions, feed each others' babies.
+
+It was a great personal loss to see Rosalina and her family go. Then later the house cut up like a huge beast and tossed out in the early morning - dual occupancy makes its move in.
+
+Streetscape has led to:
+
+children's games
+
+combined garage sales
+
+parties with the women's band ex No. 11 Way
+
+balloon watching
+
+some sharing of things owned in common, like lawnmowers
+
+friendship/neighbourliness
+
+being aware/involved in significant 'life moments' of those around - births (at home), birthdays, death
+
+Into the nineties
+
+About this time the streetscape starts to change from a quiet country back lane to high density. More traffic - speed. Hedges and old world gardens (even a habitat tree) come down. Some barriers go up.
+
+More private ownership - dual occupancy - childless professional couples - high turnover of student houses - busy lifestyles - little time or interest in 'the street' - more locking up - more franchised services - less sharing and involvement in the street - a community in the balance.
+
+Liz, Way Street, 1986-1997 (contributed 1996)
+
+6
+6.1 
+Long term residents
+
+In the mid-1990s when the collection of material for the Tocumwal Archive began there were still a number of long term residents in the O'Connor Tocumwal houses, some of whom were the original tenants.
+
+
+
+6.2
+I don't ever want to go
+
+When we came there wasn't a thing out this way
+There was a big black stump over the street there 
+Right in the middle of the two way street 
+And the children used to play in it and get covered with charcoal. 
+The best baby sitter I ever had was an old magpie that used to sit up on a big dead stump on the corner of 
+Miller and Macarthur 
+Every time the children got to the corner it used to swoop down on them 
+It knew!
+
+We used to push the pram with the kids in to do the shopping at Civic - and bring it home in the pram 
+Usually the day after you got paid 
+It was the only shopping centre
+
+Mr Cosier was at the corner store
+After he sold up and went away they built the whole front right along 
+There was a little clothing shop - Macdonald's - past the chemist shop - where (Marinetti's) is now 
+We used to use it quite a lot
+
+My girls and George's (George Lewis) girls all went to school together 
+We used to go down to Turner School for Sunday School 
+And they all went from there to St Phillips - at the youth centre there 
+Both my girls were married at St Phillips 
+And my husband was buried from there. 
+I remember when we put the first stone in for the Church
+
+I still do morning teas once a month.
+
+We knew all our neighbours 
+But they're all changed now 
+The LeGrand's had the art gallery 
+The Macmillans were on the corner of Way Street 
+The Crosses were in Miller Street for years 
+Neighbours didn't get together for functions
+
+But we did things like swapping vegetables - and we still do 
+George and I are often swapping things
+
+And George is very handy if you want anything fixed
+
+We had a fire in the lounge room 
+And a wood stove in the kitchen
+
+That was all the heating we had.
+
+The front part's the same as it always was 
+I had the new and bigger windows put in because they were push out windowns and were always breaking 
+And I got a hot water service in the bathroom 
+When we moved in we had a chip heater - that was alright when we had the wood
+
+When my husband was alive he wouldn't buy the house 
+But after he died they put the rents up - about $100 per fortnight
+
+So I bought it and put the extra 100 into the house instead of the rent 
+It's all paid for now
+
+Now I have three girls living with me - two have been here for two years 
+Before that I had other students - most of them were from the country 
+It's company for me in the house 
+I had one come and visit me a little while ago - she'd lived here for about nine years 
+Any of them, if they're around they always come and see me
+
+We were the third people in this house
+I've been here about 45 years 
+And I don't ever want to go 
+When I first saw the house I loved it 
+A real home place 
+My granddaughter says to me now 
+'Don't ever sell it Gran or we'll have nowhere to call home'
+
+I like it here because it's handy to everything 
+And I've been here - you get to know your way around places 
+I don't think I'd like to move anywhere else
+
+Dot Mayo, Macarthur Avenue, 1950-1998 (contributed 1996)
+
+6.3
+The story of Studio Nundah - Macarthur Avenue
+
+In 1950 my father and mother emigrated to Sydney from Holland where they had been in partnership in a pottery business in Amsterdam.
+
+I expect it would have been in 1951 or 52, after I was born, that the old man got a job with East Sydney Tech. and was posted to Canberra to teach ceramics at the new Canberra technical college which at first was over in the old Kingston buildings, where the bus shelters are. In this capacity he helped establish the first art school here in Canberra.
+
+For the first couple of years he commuted from Sydney to Canberra on an old BSA motorbike but then he was allocated the Macarthur Avenue house and that became our home in about 1954 or 55.
+
+The pottery studio at the back of the Macarthur Avenue house was built by my father with the aid of Jack Ketley, the head of the Electrical Trades, and a number of other people involved in the trade areas of the Tech. The arrangement was that he would make them a dinner service in exchange for their help.
+
+My father and mother separated in 1962, and as we were struggling on the meagre sum awarded her by the Court for maintenance, she started running pottery classes in the studio several mornings and evenings a week. In the same year she opened what is believed to be the first commercial art gallery in Canberra - Studio Nundah.
+
+The gallery ran in the front three rooms of the house, so we all ended up living in the other two remaining bedrooms and the kitchen until 1965 when my mother went into a very brief partnership which facilitated a loan for the extension to the gallery.
+
+The extension was designed by Theo Bischoff and the architectural drawings were done by Neil Renfrey. It included lots of blank wall space for the hanging of paintings. Other features were an innovative system of pelmeting, charcoal black ceilings with spot-lights, hessian-coloured walls and polished wooden floors - it was all very spiffy. There was a large patio built in slate and the garden was redesigned somewhat to accommodate sculpture.
+
+With the regularity of openings - the show would be on for 2 weeks, then it would be pull down, pack up, receive the new goods and set up, so you might have an opening about every three or four weeks - there was a lot of coming and going at Macarthur Avenue during my teenage years. For openings, particularly winter openings, we'd serve Gluwein and there'd be a coterie of individuals, supporters of the gallery, who would stay back and party on. There was a lot of camaraderie and support because Canberra was still so small.
+
+My Father got an MBE for his contribution to the arts but I also think it would have been nice if my mother had got something like that. She had a policy of exhibiting younger artists, people like Geoff Makin, who had recently graduated from East Sydney Tech., and I notice here in one of the visitors' books that there was a show of contemporary prints by Arthur Wicks who's now a well-established artist. To maintain the viability of the gallery in relation to this policy my mother put on exhibitions of landscapes which sold very well.
+
+As a consequence of all her activities - the gallery, kids' classes in the school holidays, raising a family by herself, my mother's own work didn't get much of a look-in. She did do some of it but, like any artist might tell you, unless you have unfettered time, it's very hard. She ended up being a good listener for a number of individuals. She was a very accommodating person and she worked her butt off with little or no financial reward.
+
+I think it was about 1972 that the gallery closed down. My mother stayed on at Macarthur Avenue until she died in 1985. I'm curious to see now that since Fine Line have sold it, there's a consulting psychologist there. It seems somehow appropriate given the role my mother played there for so many people. She always used to say if the walls could speak ...
+
+Michael LeGrand, Macarthur Avenue, 1954-1991 (oral history interview 1996)
+
+6.4
+My life with the ponies and horses
+
+We arrived in Australia in 1966 and bought this house in Quinn Street, O'Connor. The house, a Tocumwal type, had a huge back yard. There were all types of fruit trees, pencil pines and nut trees growing. But it was the large block off the beaten track that attracted me. Through the big hedge onto the nature strip, up over Miller Street and you were in the scrub within three minutes on a good pony.
+
+Our family of three kids ranged from 11 months to five years - the youngest was our son James. My brother and his wife were with us until they bought their place at 3 Peel Street in 1967.
+
+Our first pony mare had a foal at foot when she came to us. The foal (Danny Boy) turned out to be a top child's pony - not only my kids but many more from our area were educated on Danny in the paddock. He was the first of many as we have two horses in the yards up till this very day.
+
+Looking back over the 30 years we have been here, the people in this area call it the horse paddock. We have a beaut walled in play area. The three pre-schools in the area parade past the big horse gate every week and on the 1st of August, the horses' birthday, we find the gate with birthday greetings to Danny, Model and Dillon pinned to it.
+
+Many people in passing have always said to me "It is good to see the rural scene in the suburban areas". Needless to say, all our neighbours around have good rose beds.
+
+Our house took on a new lease of life as I am a retired carpenter and joiner and have over the years renovated and extended the Quinn Street house. Still to this day new bits and pieces are on the go.
+
+We are very happy in Quinn Street and get regular visits from our five grandchildren. We have had the same neighbours the 30 years we have lived here.
+
+Andrew Morris, Quinn Street, 1966 - (contriubted 1996)
+
+7
+7.1
+The past and the present
+
+In the mid-1990s the Tocumwal houses precinct in O'Connor was nominated for listing on the ACT Heritage Register and is now a listed heritage precinct. Most of the remaining government houses have been sold and land values have increased considerably. People moving into the area often have an interest in the distinctive architectural features of the houses and their restoration. The Tocumwal houses are weatherboard to sill height, AC sheet fibro above with small timber framed windows of two to four vertical panes. Roofs are hipped and sheeted with corrugated iron. They have large lounge rooms, typically with double doors opening into the dining room, generous verandahs and red brick chimneys. As a result of private owernship, some of the houses were dramatically modified prior to heritage listing, but the streetscape view remains fairly consistent. Typically the houses have either three or four bedrooms. A small number, in Quinn, Peel and Macpherson streets, have two bedrooms. These did not come from Tocumwal but were built as look-alikes to complete the precinct by the government's workforce, rather than by Jim Perry.
+
+(Information from The O'Connor precinct design criteria, prepared by ACT Public Works for ACT Housing Trust, George Lewis - an original Tocumwal resident, and member of the government day labour force)
+
+7.2
+Nothing that will alter the original character of the house
+
+There are not many houses in Canberra of charm and character - at least not many that we could afford to consider. But once we became aware of the Tocumwals in O'Connor they seemed to fit the bill perfectly.
+
+We liked the look of this house from the outset: the big corrugated iron roof, the timber floors, the roomy interior spaces, and the general country farmhouse appearance. And we were delighted to find a Tocumwal that was so intact with its original casement windows and Tasmanian oak doors, the functioning fireplace in the lounge, even the Canberra Metters slow combustion stove that Mrs Heycox, the former resident, had reputedly used to such effect for the last forty years. We could also see the possiblities of the odd triangular-shaped block for creating a wonderful garden. The fact that it was rather bare and empty didn't seem to be a problem. After all there was an old quince and that magnificent mature fig tree - everyone who walks past reminds us about the colourful scarecrow that used to hang there every year. (We even found Mrs Heycox's recipe for preserved figs in the kitchen cupboard when we moved in.)
+
+What are we going to do with our house in the future? Well not a great deal really apart from some TLC. The garden is one of our priorities and we have already spent quite a bit of time and energy making a start in that direction. Some painting of course, a wooden deck down one side to enjoy the garden, and perhaps extending the front verandah. Nothing that will alter the original character of the house. In fact we are quite pleased about the heritage listing - at least this part of O'Connor will be protected from the threat of predatory developers! We are also hoping that the recommendations of the traffic study will be implemented in the near future so that Miller Street becomes a bit quieter.
+
+As new arrivals we have thoroughly enjoyed becoming acquainted with the neighbourhood and we have been especially pleased to get to know some of our neighbours who have been part of the Tocumwal precinct from its early days. We regard this as a part of inner Canberra with a distinctive history and we are looking forward to living here into the forseeable future.
+
+John, Robyn and Simeran, Miller Street, 1996 - (contributed 1996)
+
+7.3
+A conversation between the former tenant of 11 Hart Street and the new owners, on a return visit, 1996
+
+Walking around the garden
+
+Mum planted that camelia - she paid 2/6 for it at Queanbeyan.
+
+What colour is it?
+
+Snowy white.
+
+And the rhododendron?
+
+Pink.
+
+And the camelia around the other side?
+
+Light pink.
+
+I left that grapevine there because I was going to graft it with the grape that's got no seeds 
+Anyway I got grafted myself. 
+This one here - coastal magnolia 
+Mum planted it as a stick 
+Just an ordinary stick 
+I said, 'Don't plant it there, it might grow' 
+She said, 'That's the idea.' 
+This is a lemon meyer 
+Actually it wants pruning now 
+Get rid of some of the old wood 
+I picked four or five cases of fruit of this one year 
+And cherries - don't talk about cherries 
+That one up there, he come up by himself 
+Someone threw a seed over the fence. 
+This one I bought in Young - I was after a big black one. 
+That's a damson plum - it was here when we arrived 
+You can dry them 
+And the fig tree 
+I pinched that 
+There was another one over here 
+A big black one - I got that from Adelaide 
+I think the kids must've taken it. 
+That fig tree is a little one 
+They make lovely jam 
+And you can dry them
+
+We're going to put a vegie garden in there where that pile of dirt is 
+And some fruit trees - apple and pear 
+And espalier them along the fence. 
+Was there a shed here?
+
+No, there was a trellis - 
+Grapes - black muscat. 
+I grew a lot of vegetables here 
+When I first come here 
+The kids were younger then 
+Had to get a bit of chaff somewhere.
+
+How many kids did you have?
+
+Eight.
+
+On the verandah over a cup of tea
+
+This was Mum's spot 
+She had all pot plants here 
+You couldn't walk here 
+And there was mesh all the way down to protect the pot plants.
+
+We've been using the old stove in the kitchen - 
+We had a flue put in.
+
+I tell you what, with that fire going in there 
+Oh, it's as warm as toast 
+Oh Jesus 
+I didn't want to get out of here.
+
+The walnut tree
+
+By gee it's a lovely shape 
+There's many a Christmas,as we had under that 
+There's a bloke said, 'I'll give you a thousand dollars for the tree' 
+I said, 'You bring me the thousand dollars 
+And you can take the tree' 
+He never turned up 
+He wanted the wood for furniture 
+Look at the limbs 
+There's only one month of the year you can cut them 
+Otherwise they loose too much sap 
+You should see that tree in the mornings when the nuts are nearly rip 
+It's not this colour 
+It's white with cockatoos 
+One in their mouth and one in their foot 
+Drop some on my roof on the way over 
+And away up to Black Mountain
+
+Eric Menzies,11 Hart Street 1955- 1995, Colin and Susan Minahan,11 Hart Street, 1995 - a conversation taken down by Mary Hutchison, 1996
